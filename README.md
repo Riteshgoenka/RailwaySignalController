@@ -9,7 +9,7 @@ Saiteja Nangunoori  (160050089)<br>
 
 ## Description
 
-The bash script <mark>run_host.sh</mark> is run in the terminal at filci and the bash script "run_board.sh" is run in the terminal at cksum/vhdl.
+The bash script <span style="background-color: #FFFF00">run_host.sh</span> is run in the terminal at filci and the bash script "run_board.sh" is run in the terminal at cksum/vhdl.
 
 ## VHDL files
 |File 				    |   Location                                                                              |
