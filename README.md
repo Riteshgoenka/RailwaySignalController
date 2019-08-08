@@ -14,18 +14,19 @@ The bash script(run_host.sh) is run in the terminal at filci and the bash script
 
 ## VHDL files:-
 -----------
-File 				      Location
-encrypter.vhd     ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-decrypter.vhd 		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-hdlmake.cfg 		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-baudrate_gen.vhd 	~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-uart_tx.vhd 		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-uart_rx.vhd 		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-harness.vhdl		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates
-board.ucf		      ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/boards/atlys
-hdlmake.cfg		    ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
-top_level.vhdl		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
-debouncer.vhd		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
+|File 				    |   Location                                                                              |
+------------------|-----------------------------------------------------------------------------------------|
+|encrypter.vhd    |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl                   |
+|decrypter.vhd 	  |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl                   |
+|hdlmake.cfg 		  |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl                   |
+|baudrate_gen.vhd |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl                   |
+|uart_tx.vhd 		  |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl                   |
+|uart_rx.vhd 		  |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl                   |
+|harness.vhdl		  |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates                    |
+|board.ucf		    |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/boards/atlys|
+|hdlmake.cfg		  |~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl        |
+|top_level.vhdl		|~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl        |
+|debouncer.vhd		|~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl        |
 
 ## C files:-
 --------
