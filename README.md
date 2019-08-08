@@ -43,7 +43,6 @@ For the mandatoy UART communication, data is sent to the controller from another
 For the optional part, two python codes (one-two.py & two-one.py) are run on relay computer which directs the data flow from one controller to other.
 
 ## Compilation
-*after running run_host.sh (C-compilation) in filci and run run_board.sh in ..../swled/cksum/vhdl to connect to atlys and etc.,.
-
-Mandatory UART: Open gtkterm with destined UART port with baudrate 115200 (ex:- sudo gtkterm -p /dev/ttyXRUSB0 -s 115200) and then send or receive data according to the protocol.
-Optional UART: Run the above two .py files to create 2 paths or threads where it can act as a relay for 1->2 and 2->1 communication and send to and fro by switches.
+- VHDL: After running run_host.sh (C-compilation) in filci, run run_board.sh in ..../swled/cksum/vhdl to connect to atlys board
+- Mandatory UART: Open gtkterm with destined UART port with baudrate 115200 (ex:- sudo gtkterm -p /dev/ttyXRUSB0 -s 115200) and then send or receive data according to the protocol
+- Optional UART: Run the above two .py files to create 2 paths or threads where it can act as a relay for 1->2 and 2->1 communication and send to and fro by switches
