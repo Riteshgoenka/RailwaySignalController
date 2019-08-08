@@ -1,44 +1,48 @@
 # RailwaySignalController
-Course Project: <br>
-Ritesh Goenka(160050047) <br>
-Manoj Middepogu(160050075) <br>
-Sathvik Reddy Kollu(160050077) <br>
-Saiteja Nangunoori (160050089) <br>
+Course Project: Digital Logic Design Lab (CS 254) <br>
+
+## Team Members
+Ritesh Goenka       (160050047)<br>
+Manoj Middepogu     (160050075)<br>
+Sathvik Kollu Reddy (160050077)<br>
+Saiteja Nangunoori  (160050089)<br>
+
+## Description:-
+--------------
 
 The bash script(run_host.sh) is run in the terminal at filci and the bash script(run_board.sh) is run in the terminal at cksum/vhdl.
 
 ## VHDL files:-
 -----------
-File 				Location
-encrypter.vhd		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
+File 				      Location
+encrypter.vhd     ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
 decrypter.vhd 		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-hdlmake.cfg 		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
+hdlmake.cfg 		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
 baudrate_gen.vhd 	~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-uart_tx.vhd 		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-uart_rx.vhd 		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
-harness.vhdl		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates
-board.ucf		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/boards/atlys
-hdlmake.cfg		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
+uart_tx.vhd 		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
+uart_rx.vhd 		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/cksum/vhdl
+harness.vhdl		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates
+board.ucf		      ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/boards/atlys
+hdlmake.cfg		    ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
 top_level.vhdl		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
-debouncer.vhd		~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
+debouncer.vhd		  ~/20140524/makestuff/makestuff/hdlmake/apps/makestuff/swled/templates/fx2all/vhdl
 
 ## C files:-
 --------
-File 				Location
+File 				  Location
 main.c				~/20140524/makestuff/makestuff/apps/flcli
 
 ## Optional Part :-
 ------------------ 
-File 				Location
-one-two.py			~/20140524/makestuff/makestuff/apps/flcli
-two-one.py			~/20140524/makestuff/makestuff/apps/flcli
+File          Location
+one-two.py	  ~/20140524/makestuff/makestuff/apps/flcli
+two-one.py		~/20140524/makestuff/makestuff/apps/flcli
 
 ## UART communication:-
 --------------------
 For the mandatoy UART communication, data is sent to the controller from another computer using gtkterminal and the received data from the controller is displayed on the same gtkterminal.
 
-For the optional part:-two python codes(one-two.py & two-one.py) are run on relay computer which directs the data flow from one controller to other.
-
+For the optional part, two python codes (one-two.py & two-one.py) are run on relay computer which directs the data flow from one controller to other.
 
 ## For Compilation:-
 ----------------
