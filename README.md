@@ -9,7 +9,7 @@ Saiteja Nangunoori  (160050089)<br>
 
 ## Description
 
-The bash script <span style="background-color: #FFFF00">run_host.sh</span> is run in the terminal at filci and the bash script "run_board.sh" is run in the terminal at cksum/vhdl.
+The bash script "run_host.sh" is run in the terminal at filci and the bash script "run_board.sh" is run in the terminal at cksum/vhdl.
 
 ## VHDL files
 |File 				    |   Location                                                                              |
@@ -40,9 +40,9 @@ The bash script <span style="background-color: #FFFF00">run_host.sh</span> is ru
 ## UART communication
 For the mandatoy UART communication, data is sent to the controller from another computer using gtkterminal and the received data from the controller is displayed on the same gtkterminal.
 
-For the optional part, two python codes (one-two.py & two-one.py) are run on relay computer which directs the data flow from one controller to other.
+For the optional part, two python codes ("one-two.py" & "two-one.py") are run on relay computer which directs the data flow from one controller to other.
 
 ## Compilation
-- VHDL: After running run_host.sh (C-compilation) in filci, run run_board.sh in ..../swled/cksum/vhdl to connect to atlys board
+- VHDL: After running "run_host.sh" (C-compilation) in filci, run "run_board.sh" in ..../swled/cksum/vhdl to connect to atlys board
 - Mandatory UART: Open gtkterm with destined UART port with baudrate 115200 (ex:- sudo gtkterm -p /dev/ttyXRUSB0 -s 115200) and then send or receive data according to the protocol
-- Optional UART: Run the above two .py files to create 2 paths or threads where it can act as a relay for 1->2 and 2->1 communication and send to and fro by switches
+- Optional UART: Run the above two python files to create two paths or threads where it can act as a relay for both way communication and send to and fro using switches
